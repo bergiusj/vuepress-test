@@ -1,0 +1,31 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.12.1/libexec/bin/yarn.js
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.12.1
+
+Node version: 
+  8.11.3
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: EACCES: permission denied, rmdir '/Users/adminstrator/Documents/GitHub/vuepress-test/node_modules/.cache/uglifyjs-webpack-plugin/index-v5/55/61'
+
+npm manifest: 
+  {
+  	"scripts": {
+  		"docs:dev": "vuepress dev docs",
+  		"docs:build": "vuepress build docs"
+  	}
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
